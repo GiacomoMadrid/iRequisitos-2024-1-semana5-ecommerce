@@ -1,0 +1,23 @@
+.days-carousel {
+    padding: 1rem;
+    background-color: var(--blue);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1rem;
+}
+.day{
+    background-color: white;
+    border-radius: 8%;
+    cursor: pointer;
+    text-align: center;
+    padding: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+    transition: all ease-in-out .3s;
+}
+
+.day:hover, .day.active{
+    background-color: #4495D1;
+    border-radius: 8%;
+    color: white;
+}

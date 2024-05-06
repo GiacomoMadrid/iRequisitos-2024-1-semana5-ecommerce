@@ -1,0 +1,187 @@
+:root {
+    --blue: #0A6DB4;
+    --blue-hover: #107cc9;
+    --sky-blue: #4495D1;
+    --soft-blue: #D8F3FF;
+    --green: #4AB372;
+    --green-hover: #4bc078;
+    --soft-green: #DEF9DE;
+    --white: #F6FAFE;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body, html, #root {
+    height: 100%;
+    width: 100%;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.section {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+.page {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.p-2 {
+    padding: 2rem;
+}
+.p-1 {
+    padding: 1rem;
+}
+.px-2 {
+    padding: 0 2rem;
+}
+.py-2{
+    padding: 2rem 0;
+}
+.pb-1{
+    padding-bottom: 1rem;
+}
+.bg-blue{background-color: var(--blue);}
+.bg-sky-blue{background-color: var(--sky-blue);}
+.bg-soft-blue{background-color: var(--soft-blue);}
+.bg-green{background-color: var(--green);}
+.bg-soft-green{background-color: var(--soft-green);}
+
+.h-full {
+    height: 100%;
+}
+.w-full{
+    width: 100%;
+}
+.rounded {
+    border-radius: 1rem;
+}
+.rounded-left {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.overflow-scroll {
+    overflow-y: scroll;
+}
+.overflow-scroll::-webkit-scrollbar {
+    width: 0.1em; 
+  }
+  
+  .overflow-scroll::-webkit-scrollbar-thumb {
+    background-color: transparent; 
+  }
+  
+  .overflow-scroll {
+    scrollbar-width: thin; 
+    scrollbar-color: transparent transparent; 
+  }
+.btn-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #ffffff00;
+    margin: 1rem;
+    color: white;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.flex{display: flex;}
+.flex-col {
+    flex-direction: column;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+.col-1\/4 {
+    width: 25%;
+}
+.col-1\/2 {
+    width: 50%;
+}
+
+  
+
+.btn {
+    width:100%;
+    border-radius: 4rem;
+    outline: none;
+    transition: all ease-in-out .2s;
+    border: 0;
+    cursor: pointer;
+    padding: 1rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.btn-blue {
+    background-color:var(--blue) ;
+    color:#fff;    
+}
+.btn-blue:hover {
+    background-color:var(--blue-hover) ;
+}
+.btn-green {
+    background-color:var(--green) ;
+    color:#fff;    
+}
+.btn-green:hover {
+    background-color:var(--green-hover) ;
+}
+.input-field {
+    border-radius: 4rem;
+    padding: 1rem;
+    outline: none;    
+    display: block;
+    border: 0;
+    background: #fff;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.shadow-sm{
+    box-shadow: 1px 1px 5px #b4b4b4;
+}
+.bg-blue {
+    background-color: var(--blue);
+}
+.text-white {
+    color: white;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.gap-2{
+    gap: 2rem;
+}
+.my-1 {
+    margin: 1rem 0;
+}
+.card {
+    padding: 1rem;
+    box-shadow: 1px 1px 10px #cdcdcd;
+    border-radius: 16px;
+}

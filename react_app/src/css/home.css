@@ -1,0 +1,57 @@
+.fecha{
+    color: gray;
+    font-style:italic;
+}
+.cita{ 
+    border-radius: 2rem;
+    line-height: 1.5rem;
+    width: 100%;
+}
+.cita-data {
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+}
+.cita .hora {
+    color: #989898;
+    font-size: 16px;
+}
+.cita .consulta-txt {
+    color: #3D4238;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.cita .nombre-paciente {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #808B96;
+}
+.cita .asistencia {
+    color: #808B96;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    align-self: flex-end;
+}
+.cita-blue {background-color: var(--soft-blue);}
+.cita-green {background-color: var(--soft-green);}
+.cita-blue .border-cita{
+    background-color: var(--blue);
+    width: 20px;
+}
+.cita-green .border-cita{
+    background-color: var(--green);
+    width: 20px;
+}
+.cita-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1rem;
+}
+.icon-add {
+    display: flex;
+    justify-content: end;
+}
+.icon-add button {
+    background-color: #ffffff00;
+    border: 0;
+    cursor: pointer;
+}
